@@ -17,7 +17,7 @@
         android:theme="@style/Theme.TestApplication"
         tools:targetApi="31">
         <activity
-            android:name=".crc.ui.user_list.UserListActivity"
+            android:name=".src.ui.user_list.UserListActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:configChanges="orientation"
