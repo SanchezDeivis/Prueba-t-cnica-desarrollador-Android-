@@ -23,3 +23,64 @@ mostrar en pantalla el resultado de una consulta a un servicio, para ello es nec
 ▪ website = sitio web del usuario.
 
 
+
+
+
+Solución 5. Defina una clase en al cuál se describa el concepto de persona
+
+
+    public class Persona {
+
+    private String nombre;
+    private String apellido;
+    private String altura;
+    private String peso;
+
+    public Persona(String nombre, String apellido, String altura, String peso) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.altura = altura;
+        this.peso = peso;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
+    public String getAltura() {
+        return altura;
+    }
+
+    public void setAltura(String altura) {
+        this.altura = altura;
+    }
+
+    public String getPeso() {
+        return peso;
+    }
+
+    public void setPeso(String peso) {
+        this.peso = peso;
+    }
+
+    public String comer() {
+        setPeso(peso + 1);
+        return getPeso();
+    }
+
+    public String crecer() {
+        setAltura(altura + 1);
+        return getAltura();
+    }}
