@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TestApplication</string>
+    <string name="error_ocured">Ocurrió un error, intenta nuevamente.</string>
+    <string name="internet_connection_problems">No se detectó acceso a internet, por favor verifica tu conexión.</string>
+    <string name="menu_search">Buscar</string>
+</resources>
